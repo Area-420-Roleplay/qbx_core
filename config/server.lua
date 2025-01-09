@@ -8,7 +8,7 @@ return {
         moneyTypes = { cash = 500, bank = 5000, crypto = 0 }, -- type = startamount - Add or remove money types for your server (for ex. blackmoney = 0), remember once added it will not be removed from the database!
         dontAllowMinus = { 'cash', 'crypto' }, -- Money that is not allowed going in minus
         paycheckTimeout = 10, -- The time in minutes that it will give the paycheck
-        paycheckSociety = false -- If true paycheck will come from the society account that the player is employed at
+        paycheckSociety = true -- If true paycheck will come from the society account that the player is employed at
     },
 
     player = {
@@ -107,11 +107,11 @@ return {
     end,
 
     getSocietyAccount = function(accountName)
-        return exports['Renewed-Banking']:getAccountMoney(accountName)
+        return exports.fd_banking:GetAccount(society)
     end,
 
     removeSocietyMoney = function(accountName, payment)
-        return exports['Renewed-Banking']:removeAccountMoney(accountName, payment)
+        return exports.fd_banking:RemoveMoney(society, amount, reason)
     end,
 
     ---Paycheck function

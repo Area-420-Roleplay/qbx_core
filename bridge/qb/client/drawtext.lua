@@ -7,7 +7,7 @@ local positions = {
 
 ---@deprecated use ox_lib showTextUI calls directly
 local function hideText()
-    lib.hideTextUI()
+    exports['jg-textui']:HideText() -- Using the new function to hide the text UI
 end
 
 ---@deprecated use ox_lib showTextUI calls directly
@@ -15,29 +15,28 @@ end
 ---@param position Position
 local function drawText(text, position)
     position = positions[position] or position
-    lib.showTextUI(text, {
-        position = position
-    })
+    exports['jg-textui']:DrawText(text) -- Using the new function to show the text UI
 end
+
 
 ---@deprecated use ox_lib showTextUI calls directly
 ---@param text string
 ---@param position Position
 local function changeText(text, position)
     position = positions[position] or position
-    lib.hideTextUI()
-    lib.showTextUI(text, {
-        position = position
-    })
+    exports['jg-textui']:HideText() -- Using the new function to hide the text UI
+    exports['jg-textui']:DrawText(text) -- Using the new function to show the text UI
 end
+
 
 ---@deprecated use ox_lib showTextUI calls directly
 local function keyPressed()
-    CreateThread(function() -- Not sure if a thread is needed but why not eh?
+    CreateThread(function() 
         Wait(500)
-        lib.hideTextUI()
+        exports['jg-textui']:HideText() -- Using the new function to hide text UI
     end)
 end
+
 
 ---@deprecated use ox_lib showTextUI calls directly
 RegisterNetEvent('qb-core:client:DrawText', function(text, position)
@@ -51,8 +50,9 @@ end)
 
 ---@deprecated use ox_lib showTextUI calls directly
 RegisterNetEvent('qb-core:client:HideText', function()
-    lib.hideTextUI()
+    exports['jg-textui']:HideText() -- Directly using the new text UI function
 end)
+
 
 ---@deprecated use ox_lib showTextUI calls directly
 RegisterNetEvent('qb-core:client:KeyPressed', function()

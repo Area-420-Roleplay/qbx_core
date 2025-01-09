@@ -1233,7 +1233,7 @@ return {
         type = 'automobile',
         hash = `casco`,
     },
-    castigator = {
+    --[[castigator = {
         name = 'Castigator',
         brand = 'Canis',
         model = 'castigator',
@@ -1241,7 +1241,7 @@ return {
         category = 'suvs',
         type = 'automobile',
         hash = `castigator`,
-    },
+    },--]]
     cavalcade = {
         name = 'Cavalcade',
         brand = 'Albany',
@@ -1584,7 +1584,7 @@ return {
         type = 'automobile',
         hash = `coquette4`,
     },
-    coquette5 = {
+    --[[coquette5 = {
         name = 'Coquette D1',
         brand = 'Invetero',
         model = 'coquette5',
@@ -1592,7 +1592,7 @@ return {
         category = 'sportsclassics',
         type = 'automobile',
         hash = `coquette5`,
-    },
+    },]]--
     corsita = {
         name = 'Corsita',
         brand = 'Lampadati',
@@ -1953,7 +1953,7 @@ return {
         type = 'automobile',
         hash = `dominator9`,
     },
-    dominator10 = {
+    --[[dominator10 = {
         name = 'Dominator FX',
         brand = 'Vapid',
         model = 'dominator10',
@@ -1961,7 +1961,7 @@ return {
         category = 'muscle',
         type = 'automobile',
         hash = `dominator10`,
-    },
+    },]]--
     dorado = {
         name = 'Dorado',
         brand = 'Bravado',
@@ -1998,7 +1998,7 @@ return {
         type = 'automobile',
         hash = `draugur`,
     },
-    driftcypher = {
+    --[[driftcypher = {
         name = 'Cypher (Drift)',
         brand = 'Übermacht',
         model = 'driftcypher',
@@ -2006,7 +2006,7 @@ return {
         category = 'sports',
         type = 'automobile',
         hash = `driftcypher`,
-    },
+    },]]--
     drifteuros = {
         name = 'Euros (Drift)',
         brand = 'Annis',
@@ -2043,7 +2043,7 @@ return {
         type = 'automobile',
         hash = `driftjester`,
     },
-    driftnebula = {
+    --[[driftnebula = {
         name = 'Nebula Turbo (Drift)',
         brand = 'Vulcar',
         model = 'driftnebula',
@@ -2051,7 +2051,7 @@ return {
         category = 'sportsclassics',
         type = 'automobile',
         hash = `driftnebula`,
-    },
+    },]]--
     driftremus = {
         name = 'Remus (Drift)',
         brand = 'Annis',
@@ -2061,7 +2061,7 @@ return {
         type = 'automobile',
         hash = `driftremus`,
     },
-    driftsentinel = {
+    --[[driftsentinel = {
         name = 'Sentinel Classic Widebody (Drift)',
         brand = 'Übermacht',
         model = 'driftsentinel',
@@ -2069,7 +2069,7 @@ return {
         category = 'sports',
         type = 'automobile',
         hash = `driftsentinel`,
-    },
+    },]]--
     drifttampa = {
         name = 'Drift Tampa',
         brand = 'Declasse',
@@ -2079,7 +2079,7 @@ return {
         type = 'automobile',
         hash = `drifttampa`,
     },
-    driftvorschlag = {
+    --[[driftvorschlag = {
         name = 'Vorschlaghammer (Drift)',
         brand = 'Declasse',
         model = 'driftvorschlag',
@@ -2087,7 +2087,7 @@ return {
         category = 'sedans',
         type = 'automobile',
         hash = `driftvorschlag`,
-    },
+    },--]]
     driftyosemite = {
         name = 'Drift Yosemite',
         brand = 'Declasse',
@@ -2358,7 +2358,7 @@ return {
         type = 'automobile',
         hash = `euros`,
     },
-    eurosx32 = {
+    --[[eurosx32 = {
         name = 'Euros X32',
         brand = 'Annis',
         model = 'eurosx32',
@@ -2366,7 +2366,7 @@ return {
         category = 'sports',
         type = 'automobile',
         hash = `eurosx32`,
-    },
+    },--]]
     everon = {
         name = 'Everon',
         brand = 'Karin',
@@ -2385,7 +2385,7 @@ return {
         type = 'automobile',
         hash = `everon2`,
     },
-    envisage = {
+    --[[envisage = {
         name = 'Envisage',
         brand = 'Bollokan',
         model = 'envisage',
@@ -2393,7 +2393,7 @@ return {
         category = 'sports',
         type = 'automobile',
         hash = `envisage`,
-    },
+    },]]--
     exemplar = {
         name = 'Exemplar',
         brand = 'Dewbauchee',
@@ -4266,7 +4266,7 @@ return {
         type = 'automobile',
         hash = `ninef2`,
     },
-    niobe = {
+    --[[niobe = {
         name = 'Niobe',
         brand = 'Übermacht',
         model = 'niobe',
@@ -4274,7 +4274,7 @@ return {
         category = 'sports',
         type = 'automobile',
         hash = `niobe`,
-    },
+    },]]--
     nokota = {
         name = 'P-45 Nokota',
         brand = '',
@@ -4437,7 +4437,7 @@ return {
         type = 'automobile',
         hash = `paragon2`,
     },
-    paragon3 = {
+    --[[paragon3 = {
         name = 'Paragon S',
         brand = 'Enus',
         model = 'paragon3',
@@ -4445,7 +4445,7 @@ return {
         category = 'sports',
         type = 'automobile',
         hash = `paragon3`,
-    },
+    },]]--
     pariah = {
         name = 'Pariah',
         brand = 'Ocelot',
@@ -4644,7 +4644,7 @@ return {
         type = 'automobile',
         hash = `pigalle`,
     },
-    pipistrello = {
+    --[[pipistrello = {
         name = 'Pipistrello',
         brand = 'Överflöd',
         model = 'pipistrello',
@@ -4652,8 +4652,8 @@ return {
         category = 'super',
         type = 'automobile',
         hash = `pipistrello`,
-    },
-    pizzaboy = {
+    },]]--
+    --[[pizzaboy = {
         name = 'Pizza Boy',
         brand = 'Pegassi',
         model = 'pizzaboy',
@@ -4661,8 +4661,8 @@ return {
         category = 'motorcycles',
         type = 'bike',
         hash = `pizzaboy`,
-    },
-    poldominator10 = {
+    },]]--
+    --[[poldominator10 = {
         name = 'Dominator FX Interceptor',
         brand = 'Vapid',
         model = 'poldominator10',
@@ -4670,8 +4670,8 @@ return {
         category = 'emergency',
         type = 'automobile',
         hash = `poldominator10`,
-    },
-    poldorado = {
+    },]]--
+    --[[poldorado = {
         name = 'Dorado Cruiser',
         brand = 'Bravado',
         model = 'poldorado',
@@ -4679,7 +4679,7 @@ return {
         category = 'emergency',
         type = 'automobile',
         hash = `poldorado`,
-    },
+    },]]--
     polgauntlet = {
         name = 'Gauntlet Interceptor',
         brand = 'Bravado',
@@ -4689,7 +4689,7 @@ return {
         type = 'automobile',
         hash = `polgauntlet`,
     },
-    polgreenwood = {
+    --[[polgreenwood = {
         name = 'Greenwood Cruiser',
         brand = 'Bravado',
         model = 'polgreenwood',
@@ -4697,7 +4697,7 @@ return {
         category = 'emergency',
         type = 'automobile',
         hash = `polgreenwood`,
-    },
+    },]]--
     police = {
         name = 'Police Cruiser',
         brand = 'Vapid',
@@ -4779,7 +4779,7 @@ return {
         type = 'automobile',
         hash = `policet`,
     },
-    policet3 = {
+    --[[policet3 = {
         name = 'Burrito (Bail Enforcement)',
         brand = 'Declasse',
         model = 'policet3',
@@ -4787,8 +4787,8 @@ return {
         category = 'emergency',
         type = 'automobile',
         hash = `policet3`,
-    },
-    polimpaler5 = {
+    },]]--
+    --[[polimpaler5 = {
         name = 'Impaler SZ Cruiser',
         brand = 'Declasse',
         model = 'polimpaler5',
@@ -4796,8 +4796,8 @@ return {
         category = 'emergency',
         type = 'automobile',
         hash = `polimpaler5`,
-    },
-    polimpaler6 = {
+    },]]--
+    --[[polimpaler6 = {
         name = 'Impaler LX Cruiser',
         brand = 'Declasse',
         model = 'polimpaler6',
@@ -4805,7 +4805,7 @@ return {
         category = 'emergency',
         type = 'automobile',
         hash = `polimpaler6`,
-    },
+    },]]--
     polmav = {
         name = 'Police Maverick',
         brand = 'Western',
@@ -7425,7 +7425,7 @@ return {
         type = 'automobile',
         hash = `voodoo2`,
     },
-    vorschlaghammer = {
+    --[[vorschlaghammer = {
         name = 'Vorschlaghammer',
         brand = 'Benefactor',
         model = 'vorschlaghammer',
@@ -7433,7 +7433,7 @@ return {
         category = 'sedans',
         type = 'automobile',
         hash = `vorschlaghammer`,
-    },
+    },]]--
     vortex = {
         name = 'Vortex',
         brand = 'Pegassi',
@@ -7596,7 +7596,7 @@ return {
         type = 'automobile',
         hash = `yosemite3`,
     },
-    yosemite1500 = {
+    --[[yosemite1500 = {
         name = 'Yosemite 1500',
         brand = 'Declasse',
         model = 'yosemite1500',
@@ -7604,7 +7604,7 @@ return {
         category = 'offroad',
         type = 'automobile',
         hash = `yosemite1500`,
-    },
+    },--]]
     youga = {
         name = 'Youga',
         brand = 'Bravado',
@@ -7775,5 +7775,30 @@ return {
         category = 'sportsclassics',
         type = 'automobile',
         hash = `ztype`,
-    }
+    },
+
+
+    ------------
+    -- Add-On --
+    ------------
+
+    hellenstorm = {
+        name = 'Hellenbach',
+        brand = 'Vapid',
+        model = 'hellenstorm',
+        price = 84821,
+        category = 'offroad',
+        type = 'automobile',
+        hash = `hellenstorm`,
+    },
+
+    tfstanier = {
+        name = 'Stanier',
+        brand = 'Vapid',
+        model = 'tfstanier',
+        price = 84821,
+        category = 'offroad',
+        type = 'automobile',
+        hash = `tfstanier`,
+    },
 }
